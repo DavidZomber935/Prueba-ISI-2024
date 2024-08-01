@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DESTINATION_DIR = '/var/www/html' // Cambia esto a la ubicación deseada para Nginx
+        DESTINATION_DIR = 'C:\\servidor\\nginx-1.26.1' // Cambia esto a la ubicación deseada para Nginx
     }
 
     triggers {
