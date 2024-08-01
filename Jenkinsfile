@@ -10,11 +10,6 @@ pipeline {
     }
 
     stages {
-        stage('Clonar repositorio') {
-            steps {
-                git 'https://github.com/DavidZomber935/Prueba-ISI-2024.git' 
-            }
-        }
 
         stage('Mover proyecto') {
             steps {
